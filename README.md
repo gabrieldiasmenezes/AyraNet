@@ -78,7 +78,7 @@ http://localhost:5119/swagger/index.html
 Veja o modelo lógico e banco de dados no projeto 
 
 ```bash
-ModeloLogico.png
+DiagramaBanfo.jpg
 ```
 
 
