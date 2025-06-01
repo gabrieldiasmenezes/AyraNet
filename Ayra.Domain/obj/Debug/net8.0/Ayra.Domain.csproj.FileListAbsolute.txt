@@ -1,0 +1,11 @@
+C:\Users\Dell\Downloads\AyraNet\Ayra.Domain\obj\Debug\net8.0\Ayra.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Downloads\AyraNet\Ayra.Domain\obj\Debug\net8.0\Ayra.Domain.AssemblyInfoInputs.cache
+C:\Users\Dell\Downloads\AyraNet\Ayra.Domain\obj\Debug\net8.0\Ayra.Domain.AssemblyInfo.cs
+C:\Users\Dell\Downloads\AyraNet\Ayra.Domain\obj\Debug\net8.0\Ayra.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Downloads\AyraNet\Ayra.Domain\bin\Debug\net8.0\Ayra.Domain.deps.json
+C:\Users\Dell\Downloads\AyraNet\Ayra.Domain\bin\Debug\net8.0\Ayra.Domain.dll
+C:\Users\Dell\Downloads\AyraNet\Ayra.Domain\bin\Debug\net8.0\Ayra.Domain.pdb
+C:\Users\Dell\Downloads\AyraNet\Ayra.Domain\obj\Debug\net8.0\Ayra.Domain.dll
+C:\Users\Dell\Downloads\AyraNet\Ayra.Domain\obj\Debug\net8.0\refint\Ayra.Domain.dll
+C:\Users\Dell\Downloads\AyraNet\Ayra.Domain\obj\Debug\net8.0\Ayra.Domain.pdb
+C:\Users\Dell\Downloads\AyraNet\Ayra.Domain\obj\Debug\net8.0\ref\Ayra.Domain.dll

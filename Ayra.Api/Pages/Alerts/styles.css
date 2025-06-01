@@ -1,0 +1,84 @@
+/* Estilo Geral */
+body {
+    background-color: #e9ecef; /* Fundo cinza claro para destacar os cards */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff; /* Fundo branco para o conteúdo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #0d6efd; /* Azul vibrante para o título */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilo dos Cards */
+.card {
+    border: none; /* Remove a borda padrão do card */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease; /* Animação suave ao passar o mouse */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+}
+
+.card-body {
+    padding: 15px; /* Espaçamento interno do card */
+}
+
+.card-text strong {
+    color: #343a40; /* Cor escura para os labels */
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+/* Cores Dinâmicas para os Cards */
+.bg-high {
+    background-color: #f8d7da !important; /* Vermelho claro */
+    color: #721c24 !important; /* Texto escuro para contraste */
+}
+
+.bg-medium {
+    background-color: #fff3cd !important; /* Amarelo claro */
+    color: #856404 !important; /* Texto escuro para contraste */
+}
+
+.bg-low {
+    background-color: #d4edda !important; /* Verde claro */
+    color: #155724 !important; /* Texto escuro para contraste */
+}
+
+/* Estilo do Botão de Ajuda */
+.help-btn {
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho da fonte */
+    border-radius: 50px; /* Bordas arredondadas (estilo "pílula") */
+    background-color: #0d6efd; /* Azul vibrante */
+    color: white; /* Texto branco */
+    border: none; /* Sem borda */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+    text-decoration: none; /* Remove sublinhado do link */
+    display: inline-flex; /* Alinha ícone e texto */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.help-btn:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+    background-color: #0b5ed7; /* Azul mais escuro no hover */
+}
+
+.help-btn .icon {
+    margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+}

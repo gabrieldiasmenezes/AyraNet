@@ -1,0 +1,146 @@
+@page
+@model Ayra.Api.Pages.Alerts.IndexModel
+@{
+    ViewData["Title"] = "Lista de Alertas";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Ayra.Api</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"  rel="stylesheet">
+
+    <!-- Font Awesome (Ícones) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"  rel="stylesheet">
+
+        <style>
+        /* Estilo Geral */
+        body {
+            background-color: #e9ecef; /* Fundo cinza claro para destacar os cards */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #ffffff; /* Fundo branco para o conteúdo */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #0d6efd; /* Azul vibrante para o título */
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Estilo dos Cards */
+        .card {
+            border: none; /* Remove a borda padrão do card */
+            border-radius: 10px; /* Bordas arredondadas */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            transition: transform 0.3s ease; /* Animação suave ao passar o mouse */
+        }
+
+        .card:hover {
+            transform: scale(1.05); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+        }
+
+        .card-body {
+            padding: 15px; /* Espaçamento interno do card */
+        }
+
+        .card-text strong {
+            color: #343a40; /* Cor escura para os labels */
+        }
+
+        .icon {
+            margin-right: 8px;
+        }
+
+        /* Cores Dinâmicas para os Cards */
+        .bg-high {
+            background-color: #f8d7da !important; /* Vermelho claro */
+            color: #721c24 !important; /* Texto escuro para contraste */
+        }
+
+        .bg-medium {
+            background-color: #fff3cd !important; /* Amarelo claro */
+            color: #856404 !important; /* Texto escuro para contraste */
+        }
+
+        .bg-low {
+            background-color: #d4edda !important; /* Verde claro */
+            color: #155724 !important; /* Texto escuro para contraste */
+        }
+
+        /* Estilo do Botão de Ajuda */
+        .help-btn {
+            padding: 10px 20px; /* Espaçamento interno */
+            font-size: 1rem; /* Tamanho da fonte */
+            border-radius: 50px; /* Bordas arredondadas (estilo "pílula") */
+            background-color: #0d6efd; /* Azul vibrante */
+            color: white; /* Texto branco */
+            border: none; /* Sem borda */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+            text-decoration: none; /* Remove sublinhado do link */
+            display: inline-flex; /* Alinha ícone e texto */
+            align-items: center; /* Centraliza verticalmente */
+        }
+
+        .help-btn:hover {
+            transform: scale(1.05); /* Aumenta ligeiramente ao passar o mouse */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+            background-color: #0b5ed7; /* Azul mais escuro no hover */
+        }
+
+        .help-btn .icon {
+            margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho com Título e Botão de Ajuda -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="m-0"><i class="fas fa-exclamation-triangle icon"></i> Lista de Alertas</h1>
+            <a href="/Help" class="btn help-btn">
+                <i class="fas fa-question-circle me-2"></i> Ajuda
+            </a>
+        </div>
+
+        <!-- Grid de Cards -->
+        <div class="row">
+            @foreach (var alert in Model.Alerts)
+            {
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card @(alert.Intensity == "Alta" ? "bg-high" :
+                                alert.Intensity == "Média" ? "bg-medium" :
+                                "bg-low")">
+                        <div class="card-body">
+                            <!-- Detalhes do Alerta -->
+                            <p class="card-text"><i class="fas fa-heading icon"></i> Título: @alert.Title</p>
+                            <p class="card-text"><i class="fas fa-align-left icon"></i> Descrição: @alert.Description</p>
+                            <p class="card-text"><i class="fas fa-fire icon"></i> Intensidade: @alert.Intensity</p>
+                            <p class="card-text"><i class="fas fa-clock icon"></i> Data/Hora: @alert.AlertDateTime.ToString("dd/MM/yyyy HH:mm")</p>
+                            <p class="card-text"><i class="fas fa-map-marker-alt icon"></i> Localização: @alert.Location</p>
+                            <p class="card-text"><i class="fas fa-ruler-horizontal icon"></i> Raio: @alert.Radius km</p>
+                            <p class="card-text"><i class="fas fa-hourglass-start icon"></i> Tempo de Evacuação: @alert.EvacuationTime minutos</p>
+                            <p class="card-text"><i class="fas fa-map-pin icon"></i> Map Marker ID: @alert.MapMarkerId</p>
+                            <p class="card-text"><i class="fas fa-globe icon"></i> Coordinate ID: @alert.CoordinateId</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (opcional, se precisar de funcionalidades interativas) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>

@@ -1,0 +1,17 @@
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\bin\Debug\net8.0\Ayra.Application.deps.json
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\bin\Debug\net8.0\Ayra.Application.dll
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\bin\Debug\net8.0\Ayra.Application.pdb
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\bin\Debug\net8.0\Ayra.Domain.dll
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\bin\Debug\net8.0\Ayra.Infrastructure.dll
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\bin\Debug\net8.0\Ayra.Domain.pdb
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\bin\Debug\net8.0\Ayra.Infrastructure.pdb
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\obj\Debug\net8.0\Ayra.Application.csproj.AssemblyReference.cache
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\obj\Debug\net8.0\Ayra.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\obj\Debug\net8.0\Ayra.Application.AssemblyInfoInputs.cache
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\obj\Debug\net8.0\Ayra.Application.AssemblyInfo.cs
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\obj\Debug\net8.0\Ayra.Application.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\obj\Debug\net8.0\Ayra.App.FD4B081F.Up2Date
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\obj\Debug\net8.0\Ayra.Application.dll
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\obj\Debug\net8.0\refint\Ayra.Application.dll
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\obj\Debug\net8.0\Ayra.Application.pdb
+C:\Users\Dell\Downloads\AyraNet\Ayra.Application\obj\Debug\net8.0\ref\Ayra.Application.dll

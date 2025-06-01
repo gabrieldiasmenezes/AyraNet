@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Downloads\\AyraNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC4E7D1-2276-4532-892C-0677A16D83EF}|..\\Ayra.Infrastructure\\Ayra.Infrastructure.csproj|c:\\users\\dell\\downloads\\ayra.infrastructure\\ayra.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598D7B1A-D89E-4122-B66F-BF12873A2737}|..\\Ayra.Application\\Ayra.Application.csproj|c:\\users\\dell\\downloads\\ayra.application\\ayra.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D3E5E0E-C3BF-42D5-BEEC-F19C0721D5A9}|..\\Ayra.Api\\Ayra.Api.csproj|c:\\users\\dell\\downloads\\ayra.api\\ayra.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ayra.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\Ayra.Infrastructure\\Ayra.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\Ayra.Infrastructure\\Ayra.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\Ayra.Infrastructure\\Ayra.Infrastructure.csproj",
+              "RelativeToolTip": "..\\Ayra.Infrastructure\\Ayra.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-31T15:07:38.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ayra.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\Ayra.Application\\Ayra.Application.csproj",
+              "RelativeDocumentMoniker": "..\\Ayra.Application\\Ayra.Application.csproj",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\Ayra.Application\\Ayra.Application.csproj",
+              "RelativeToolTip": "..\\Ayra.Application\\Ayra.Application.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-31T15:07:31.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ayra.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\Ayra.Api\\Ayra.Api.csproj",
+              "RelativeDocumentMoniker": "..\\Ayra.Api\\Ayra.Api.csproj",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\Ayra.Api\\Ayra.Api.csproj",
+              "RelativeToolTip": "..\\Ayra.Api\\Ayra.Api.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-31T15:07:17.594Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
