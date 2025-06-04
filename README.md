@@ -77,9 +77,7 @@ http://localhost:5119/swagger/index.html
 ## 🔗 Modelo Lógico do Banco de Dados
 Veja o modelo lógico e banco de dados no projeto 
 
-```bash
-DiagramaBanfo.jpg
-```
+![image](https://github.com/user-attachments/assets/f5ea3a3e-c677-453d-912d-384e758a8611)
 
 
 ---
